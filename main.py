@@ -2,7 +2,7 @@ from langchain_ollama.llms import OllamaLLM
 from langchain_core.prompts import ChatPromptTemplate
 from vector import retriever
 
-model = OllamaLL(model="llama3.2")
+model = OllamaLLM(model="llama3.2")
 
 template = """
 Du bist ein akademischer Assistent und hilfst Studierenden, ihre Module im Masterstudiengang Medieninformatik zu verstehen.
